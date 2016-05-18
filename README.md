@@ -33,6 +33,19 @@ materialMotion = new materialMo
 	y: 116
 ```
 
+You can plaing animation in normal and reverse mode
+```coffeescript
+materialMotion = new materialMo
+	layer: card
+	x: 220
+	y: 116
+
+materialMotion.start()
+
+card.onClick (event, layer) ->
+	materialMotion.reverse()
+```
+
 Done!
 
 ---
@@ -63,6 +76,9 @@ materialMotion = new materialMo
 	scaleX: 1
 	curve: "ease"
 	time: 0.2
+	
+materialMotion.start()
+materialMotion.reverse()
 ```
 
 ---
@@ -73,7 +89,7 @@ materialMotion = new materialMo
 
 ---
 
-
+### [Short Video Tutorial](https://youtu.be/78PNMxRZ0j8)
 
 ---
 ## Framer exemples
