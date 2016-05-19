@@ -92,7 +92,7 @@ materialMotion.reverse()
 ### [Short Video Tutorial](https://youtu.be/78PNMxRZ0j8)
 
 ---
-## Framer exemples
+## Framer examples
 [Simple exemple from video](http://share.framerjs.com/8v797fueeyxs/)
 
 [WireFrame motion](http://share.framerjs.com/i8520pp0gimj/)
